@@ -10,4 +10,4 @@ from .serializers import UserSerializer
 class CreateUser(generics.CreateAPIView):
 
     serializer_class = UserSerializer
-    queryset =User.objects.all()
+    queryset =User.objects.all()x
